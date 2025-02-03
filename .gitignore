@@ -1,0 +1,9 @@
+models/*onnx
+__pycache__/
+launch.json
+*.egg-info/
+notebooks/.ipynb_checkpoints/
+*.log
+*.pyd
+.pytest_cache/
+.vscode/

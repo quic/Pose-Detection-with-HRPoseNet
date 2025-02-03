@@ -1,0 +1,4 @@
+{
+    "NPU": "QNNExecutionProvider",
+    "CPU": "CPUExecutionProvider"
+}

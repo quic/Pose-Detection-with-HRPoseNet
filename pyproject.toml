@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qnn_sample_apps"
+version = "0.1.0"
+description = "Sample applications demonstrating QNN models"
+authors = [{ name = "Derrick Johnson" }]
+license = { text = "MIT" }
+dependencies = ["pytest"]
+requires-python = ">=3.11"
+
+[tool.qnn_sample_apps]
+hrnet_model_path = "models/hrnet_pose/hrnet_pose.onnx"

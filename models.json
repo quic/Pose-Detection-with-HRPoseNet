@@ -1,0 +1,6 @@
+{
+    "MODELS": {
+        "HRNET_POSE": "models/hrnet_pose.onnx",
+        "HRNET_POSE_W44": "models/hrnet_pose_w44.onnx"
+    }
+}

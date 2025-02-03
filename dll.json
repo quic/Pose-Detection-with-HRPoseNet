@@ -1,0 +1,18 @@
+
+{
+    "_comment": "**DEPRECATED** This contains configuration settings if you're utilizing Qualcomm SDK. If you're using ONNX Runtime > 1.18.0 this isn't necessary",
+    "WINDOWS":
+    {
+        "CPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-windows-msvc/QnnCpu.dll",
+        "GPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-windows-msvc/QnnGpu.dll",
+        "DSP":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-windows-msvc/QnnDsp.dll",
+        "NPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-windows-msvc/QnnHtp.dll"
+    },
+    "LINUX":
+    {
+        "CPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-android/libQnnCpu.so",
+        "GPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-android/libQnnGpu.so",
+        "DSP":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-android/libQnnDsp.so",
+        "NPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-android/libQnnHtp.so"
+    }
+}
