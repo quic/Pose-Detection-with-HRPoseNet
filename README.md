@@ -1,5 +1,4 @@
 # HRNET Pose Sample App
-Note: README is still a work in progress
 
 ## Table of Contents
 1. [About](#about)
