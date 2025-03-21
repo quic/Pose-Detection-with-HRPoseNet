@@ -1,8 +1,0 @@
-onnx
-onnxruntime
-onnxruntime_qnn
-opencv_python
-torch
-torchvision
-numpy
-Pillow
