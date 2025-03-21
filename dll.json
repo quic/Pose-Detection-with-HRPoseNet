@@ -1,18 +1,16 @@
 
 {
-    "_comment": "**DEPRECATED** This contains configuration settings if you're utilizing Qualcomm SDK. If you're using ONNX Runtime > 1.18.0 this isn't necessary",
+    "_comment": "This config will dynamically utilize correct dll based on user input",
+    "BASE_PATH": "<ONNXRUNTIME_PATH_DETECT>",
     "WINDOWS":
     {
-        "CPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-windows-msvc/QnnCpu.dll",
-        "GPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-windows-msvc/QnnGpu.dll",
-        "DSP":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-windows-msvc/QnnDsp.dll",
-        "NPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-windows-msvc/QnnHtp.dll"
+        "CPU":"casi/QnnCpu.dll",
+        "NPU":"casi/QnnHtp.dll",
+        "psuedo": "within model_loader.py init dynamically find and load basepath to json[BASE_PATH], once ready to use concat(json[BASE_PATH]/json[WINDOWS][CPU|NPU]"
     },
     "LINUX":
     {
         "CPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-android/libQnnCpu.so",
-        "GPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-android/libQnnGpu.so",
-        "DSP":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-android/libQnnDsp.so",
         "NPU":"qnn_sdk/qairt/2.26.0.240828/lib/aarch64-android/libQnnHtp.so"
     }
 }
