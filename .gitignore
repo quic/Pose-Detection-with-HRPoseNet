@@ -7,3 +7,6 @@ notebooks/.ipynb_checkpoints/
 *.pyd
 .pytest_cache/
 .vscode/
+.in
+freeze.txt
+notebooks/sample_app_hrnet_ARM64.py
